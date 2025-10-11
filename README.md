@@ -1,4 +1,4 @@
-# GPT-2 Token Similarity Graph
+# GPT-2 Token Similarity Visualizer
 
 <div align="center">
     <a href="https://gpt2-token-similarity.streamlit.app/">
