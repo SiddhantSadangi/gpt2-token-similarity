@@ -23,6 +23,8 @@ from src.utils import (
 )
 from src.visualizer import GraphVisualizer
 
+__version__ = "0.1.0"
+
 # Page configuration
 st.set_page_config(
     page_title="GPT-2 Token Similarity Graph",
@@ -109,6 +111,7 @@ def initialize_session_state():
 def create_sidebar_controls():
     """Create sidebar controls"""
     with st.sidebar:
+        st.markdown(f"**Version:** {__version__}")
         # Initialize prompt in session state if not exists
         if "prompt" not in st.session_state:
             st.session_state.prompt = "The quick brown fox jumps over the lazy dog"
