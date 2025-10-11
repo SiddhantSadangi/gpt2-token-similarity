@@ -1,5 +1,11 @@
 # GPT-2 Token Similarity Graph
 
+<div align="center">
+    <a href="https://gpt2-token-similarity.streamlit.app/">
+        <img src="https://static.streamlit.io/badges/streamlit_badge_black_white.svg" alt="Open in Streamlit" style="height: 60px !important;width: 217px !important;">
+    </a>
+</div>
+
 A Streamlit application for visualizing token similarity relationships across GPT-2 layers. This is a Python fork of the original React-based visualizer from [@KhoomeiK/gpt2-explorer](https://github.com/KhoomeiK/gpt2-explorer/tree/main/visualizer) that provides an interactive "microscope" into how language models process and understand text.
 
 ## What This App Does
