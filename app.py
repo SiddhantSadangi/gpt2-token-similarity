@@ -407,35 +407,6 @@ def create_main_visualization(controls: Dict):
     # Display graph
     st.plotly_chart(fig, width="stretch")
 
-    # Export options (under the chart)
-    col1, col2 = st.columns(2)
-
-    with col1:
-        if st.button("📷 Export as PNG", help="Download graph as PNG image", width="stretch"):
-            try:
-                img_bytes = visualizer.export_graph(fig, "png")
-                st.download_button(
-                    label="📥 Download PNG",
-                    data=img_bytes,
-                    file_name=f"gpt2_graph_layer_{controls['layer']}.png",
-                    mime="image/png",
-                )
-            except Exception as e:
-                st.error(f"Export failed: {e}")
-
-    with col2:
-        if st.button("🎨 Export as SVG", help="Download graph as SVG vector", width="stretch"):
-            try:
-                img_bytes = visualizer.export_graph(fig, "svg")
-                st.download_button(
-                    label="📥 Download SVG",
-                    data=img_bytes,
-                    file_name=f"gpt2_graph_layer_{controls['layer']}.svg",
-                    mime="image/svg+xml",
-                )
-            except Exception as e:
-                st.error(f"Export failed: {e}")
-
     # Statistics (always shown)
     create_statistics_section(model_run, graph_state, similarities, computer)
 

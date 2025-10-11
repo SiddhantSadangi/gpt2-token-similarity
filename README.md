@@ -20,5 +20,4 @@ This tool helps you understand how GPT-2 processes text by visualizing the relat
 - **Color Schemes**: Position-based or activation-based
 - **Real-time Statistics**: Graph density and similarity stats
 - **Token Search**: Find and highlight specific tokens in the graph
-- **Export Options**: Download graphs as PNG or SVG
 - **Auto-play**: Animate through layers automatically
