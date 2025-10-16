@@ -485,7 +485,7 @@ def main():
 
     # Header
     st.markdown(
-        '<div class="main-header">🧠 GPT-2 Token Similarity Graph</div>',
+        '<div class="main-header">🧠 GPT-2 Token Similarity Vizualizer</div>',
         unsafe_allow_html=True,
     )
     st.markdown("Visualize token similarity relationships across GPT-2 layers")
@@ -514,7 +514,7 @@ def main():
         st.markdown(
             """
         <div class="info-box">
-        <h3>🎯 Welcome to the GPT-2 Token Similarity Graph!</h3>
+        <h3>🎯 Welcome to the GPT-2 Token Similarity Vizualizer Tool!</h3>
         <p>This tool helps you understand how GPT-2 processes text by visualizing the relationships between tokens across different layers.</p>
         
         <h4>🚀 How to use:</h4>
