@@ -536,12 +536,6 @@ def main():
             <li><strong>Color Schemes:</strong> Position-based or activation-based coloring</li>
         </ul>
         
-        <h4>⌨️ Keyboard Shortcuts:</h4>
-        <ul>
-            <li><strong>Space:</strong> Play/Pause layer animation</li>
-            <li><strong>←/→:</strong> Navigate between layers</li>
-            <li><strong>Home/End:</strong> Jump to first/last layer</li>
-        </ul>
         </div>
         """,
             unsafe_allow_html=True,
