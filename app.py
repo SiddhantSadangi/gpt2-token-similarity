@@ -23,7 +23,7 @@ from src.utils import (
 )
 from src.visualizer import GraphVisualizer
 
-__version__ = "0.1.0"
+__version__ = "0.1.1"
 
 # Page configuration
 st.set_page_config(
